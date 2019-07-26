@@ -72,6 +72,9 @@ footer{
     background-color: unset;
     color: white;
     border: solid white 1px;
-    height: 400px;
+    height: 350px;
     width: 1400px;
+}
+p{
+    font-size: 20px;
 }
