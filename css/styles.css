@@ -9,6 +9,10 @@ body{
     background-size: cover;
     height: 900px;
     color: white;
+    font-weight: bolder;
+}
+.well{
+    background-color: rgb(white, white, white);
 }
 #second{
     text-align: center;
