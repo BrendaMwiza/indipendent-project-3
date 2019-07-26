@@ -34,7 +34,10 @@ body{
     color: white;
 }
 #div7{
-    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 600px;
+    justify-content: space-between;
 }
 footer{
     text-align: center;
@@ -47,4 +50,28 @@ footer{
 }
 .par3{
     display: none;
+}
+.a {
+    margin-bottom: 20px;
+}
+.form{
+    background-color: unset;
+    color: white;
+    border: solid white 1px;
+    height: 40px;
+    width: 700px;
+    justify-content: space-between;
+}
+::placeholder{
+    color: white;
+    margin-bottom: 200px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.forms{
+    background-color: unset;
+    color: white;
+    border: solid white 1px;
+    height: 400px;
+    width: 1400px;
 }
