@@ -25,4 +25,5 @@ $(document).ready(function(){
           $(".img3").show();
           $(".par3").hide(); 
       });
+      
 });
