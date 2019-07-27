@@ -61,6 +61,7 @@ footer{
     height: 40px;
     width: 700px;
     justify-content: space-between;
+    margin-right: 4px;
 }
 ::placeholder{
     color: white;
