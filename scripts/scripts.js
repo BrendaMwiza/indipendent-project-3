@@ -25,10 +25,20 @@ $(document).ready(function(){
           $(".img3").show();
           $(".par3").hide(); 
       });
-      
 });
 
-function click() {
-  document.getElementById("sub").innerHTML = alert("Thank you for reaching to us");
-}
 
+$(document).ready(function(){      
+      $("#sub").onclick(function(click){
+        var name= $("#Name").val();
+        var email= $("#Email").val();
+        var message= $("#Message").val();
+        if((name !== "") || (email !== "") || (message !== "")){
+          alert(name + "," + "Your message was recieved, thank you for reaching out to us");
+        }
+        else{
+          alert("the form must be filled first");
+        }
+        click.preventdefault();
+      });
+});
