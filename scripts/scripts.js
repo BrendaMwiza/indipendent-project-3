@@ -27,3 +27,8 @@ $(document).ready(function(){
       });
       
 });
+
+function click() {
+  document.getElementById("sub").innerHTML = alert("Thank you for reaching to us");
+}
+
