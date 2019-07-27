@@ -9,7 +9,7 @@ body{
     background-size: cover;
     height: 900px;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .all{
     background-color: rgb(white, white, white);
