@@ -28,17 +28,18 @@ $(document).ready(function(){
 });
 
 
-$(document).ready(function(){      
-      $("#sub").onclick(function(click){
-        var name= $("#Name").val();
-        var email= $("#Email").val();
-        var message= $("#Message").val();
-        if((name !== "") || (email !== "") || (message !== "")){
-          alert(name + "," + "Your message was recieved, thank you for reaching out to us");
-        }
-        else{
-          alert("the form must be filled first");
-        }
-        click.preventdefault();
-      });
-});
+// $(document).ready(function(){      
+//       $("#sub").onclick(function(click){
+//         var name= $("#Name").val();
+//         var email= $("#Email").val();
+//         var message= $("#Message").val();
+//         if((name !== "") || (email !== "") || (message !== "")){
+//           alert(name + "," + "Your message was recieved, thank you for reaching out to us");
+//         }
+//         else{
+//           alert("the form must be filled first");
+//         }
+//         click.preventdefault();
+//       });
+// });
+
