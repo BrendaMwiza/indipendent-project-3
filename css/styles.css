@@ -114,3 +114,114 @@ p{
     width: 80px;
     font-size: 20px;
 }
+#four{
+    position: relative;
+}
+.four{
+    position: absolute;
+    margin-left: 100px;
+    color: beige;
+    margin-top: 50px;
+    border: solid white 2px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+#three{
+    position: relative;
+}
+.three{
+    position: absolute;
+    margin-left: 500px;
+    color:brown;
+    margin-top: 50px;
+    border: solid brown 2px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+#two{
+    position: relative;
+}
+.two{
+    position: absolute;
+    margin-left: 900px;
+    color: beige;
+    margin-top: 50px;
+    border: solid white 2px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+#one{
+    position: relative;
+}
+.one{
+    position: absolute;
+    margin-left: 1300px;
+    color: beige;
+    margin-top: 50px;
+    border: solid white 2px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+#five{
+    position: relative;
+}
+.five{
+    position: absolute;
+    margin-left: 100px;
+    color: black;
+    margin-top: 400px;
+    border: solid black 2px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+#six{
+    position: relative;
+}
+.six{
+    position: absolute;
+    margin-left: 500px;
+    color: black;
+    margin-top: 400px;
+    border: solid black 2px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+#seven{
+    position: relative;
+}
+.seven{
+    position: absolute;
+    margin-left: 900px;
+    color: beige;
+    margin-top: 400px;
+    border: solid white 2px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+#eight{
+    position: relative;
+}
+.eight{
+    position: absolute;
+    margin-left: 1300px;
+    color: black;
+    margin-top: 400px;
+    border: solid black 2px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}

@@ -26,18 +26,74 @@ $(document).ready(function(){
       $(".img3").show();
       $(".par3").hide(); 
       });
+
+    $("#four").mouseover(function(){
+      $(".four").show()
+    });
+    $("#four").mouseout(function(){
+      $(".four").hide();
+    });
+    
+    $("#three").mouseover(function(){
+      $(".three").show()
+    });
+    $("#three").mouseout(function(){
+      $(".three").hide();
+    });
+
+    $("#two").mouseover(function(){
+      $(".two").show()
+    });
+    $("#two").mouseout(function(){
+      $(".two").hide();
+    });
+
+    $("#one").mouseover(function(){
+      $(".one").show()
+    });
+    $("#one").mouseout(function(){
+      $(".one").hide();
+    });
+
+    $("#five").mouseover(function(){
+      $(".five").show()
+    });
+    $("#five").mouseout(function(){
+      $(".five").hide();
+    });
+
+    $("#six").mouseover(function(){
+      $(".six").show()
+    });
+    $("#six").mouseout(function(){
+      $(".six").hide();
+    });
+
+    $("#seven").mouseover(function(){
+      $(".seven").show()
+    });
+    $("#seven").mouseout(function(){
+      $(".seven").hide();
+    });
+
+    $("#eight").mouseover(function(){
+      $(".eight").show()
+    });
+    $("#eight").mouseout(function(){
+      $(".eight").hide();
+    });
   
 
-      $(".sub").click(function(){
-        var name= $(".form").val();
-        var email= $(".form").val();
-        var message= $(".forms").val();
-        if((name !== "") || (email !== "") || (message !== "")){
-          alert(name + "," + "Your message was recieved, thank you for reaching out to us");
-        }
-        else{
-          alert("the form must be filled first");
-        }
-        });
+    $(".sub").click(function(){
+      var name= $(".form").val();
+      var email= $(".form").val();
+      var message= $(".forms").val();
+      if((name !== "") || (email !== "") || (message !== "")){
+        alert(name + "," + "Your message was recieved, thank you for reaching out to us");
+      }
+      else{
+        alert("the form must be filled first");
+      }
+      });
 });
 
