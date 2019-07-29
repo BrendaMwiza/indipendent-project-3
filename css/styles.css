@@ -1,3 +1,28 @@
+/* Extra small devices(phones) */
+@media only screen and (max-width: 600px){
+
+}
+
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (min-width: 600px){
+
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (min-width: 768px){
+
+}
+
+/* Large devices (laptops and desktops) */
+@media only screen and (min-width: 992px){
+
+}
+
+/* Extra large devices (large laptops and desktops) */
+@media only screen and (min-width: 1200px){
+    
+}
+
 body{
     margin: 5px;
     padding: 5px;
