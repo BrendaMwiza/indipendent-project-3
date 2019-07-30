@@ -35,6 +35,7 @@ body{
     height: 900px;
     color: white;
     font-weight: bolder;
+    width: 100%;
 }
 .all{
     background-color: rgb(white, white, white);
