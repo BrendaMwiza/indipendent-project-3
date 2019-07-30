@@ -114,6 +114,8 @@ p{
     height: 40px;
     width: 80px;
     font-size: 20px;
+    border-radius: 5px;
+
 }
 #four{
     position: relative;
@@ -121,12 +123,14 @@ p{
 .four{
     position: absolute;
     margin-left: 100px;
-    color: beige;
+    color: white;
+    font-weight: 700;
     margin-top: 50px;
-    border: solid white 2px;
+    border: solid white 20px;
     width: 200px;
     height: 200px;
-    opacity: 0.8;
+    background-color: rgb(0,0,0,0.5);
+    display: none;
 }
 
 #three{
@@ -135,12 +139,14 @@ p{
 .three{
     position: absolute;
     margin-left: 500px;
-    color:brown;
+    color:white;
+    font-weight: 700;
     margin-top: 50px;
-    border: solid brown 2px;
+    border: solid white 20px;
     width: 200px;
     height: 200px;
-    opacity: 0.8;
+    background-color: rgb(0,0,0,0.5);
+    display: none;
 }
 
 #two{
@@ -149,12 +155,14 @@ p{
 .two{
     position: absolute;
     margin-left: 900px;
-    color: beige;
+    color: white;
+    font-weight: 700;
     margin-top: 50px;
-    border: solid white 2px;
+    border: solid white 20px;
     width: 200px;
     height: 200px;
-    opacity: 0.8;
+    background-color: rgb(0,0,0,0.5);
+    display: none;
 }
 
 #one{
@@ -163,12 +171,14 @@ p{
 .one{
     position: absolute;
     margin-left: 1300px;
-    color: beige;
+    color: white;
+    font-weight: 700;
     margin-top: 50px;
-    border: solid white 2px;
+    border: solid white 20px;
     width: 200px;
     height: 200px;
-    opacity: 0.8;
+    background-color: rgb(0,0,0,0.5);
+    display: none;
 }
 
 #five{
@@ -177,12 +187,14 @@ p{
 .five{
     position: absolute;
     margin-left: 100px;
-    color: black;
+    color: white;
+    font-weight: 700;
     margin-top: 400px;
-    border: solid black 2px;
+    border: solid white 20px;
     width: 200px;
     height: 200px;
-    opacity: 0.8;
+    background-color: rgb(0,0,0,0.5);
+    display: none;
 }
 
 #six{
@@ -191,12 +203,14 @@ p{
 .six{
     position: absolute;
     margin-left: 500px;
-    color: black;
+    color: white;
+    font-weight: 700;
     margin-top: 400px;
-    border: solid black 2px;
+    border: solid white 20px;
     width: 200px;
     height: 200px;
-    opacity: 0.8;
+    background-color: rgb(0,0,0,0.5);
+    display: none;
 }
 
 #seven{
@@ -205,12 +219,14 @@ p{
 .seven{
     position: absolute;
     margin-left: 900px;
-    color: beige;
+    color: white;
+    font-weight: 700;
     margin-top: 400px;
-    border: solid white 2px;
+    border: solid white 20px;
     width: 200px;
     height: 200px;
-    opacity: 0.8;
+    background-color: rgb(0,0,0,0.5);
+    display: none;
 }
 
 #eight{
@@ -219,10 +235,12 @@ p{
 .eight{
     position: absolute;
     margin-left: 1300px;
-    color: black;
+    color: white;
+    font-weight: 700;
     margin-top: 400px;
-    border: solid black 2px;
+    border: solid white 20px;
     width: 200px;
     height: 200px;
-    opacity: 0.8;
+    background-color: rgb(0,0,0,0.5);
+    display: none;
 }
