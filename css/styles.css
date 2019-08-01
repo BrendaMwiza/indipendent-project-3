@@ -85,7 +85,7 @@ footer{
     color: white;
     border: solid white 1px;
     height: 40px;
-    width: 700px;
+    width: 500px;
     justify-content: space-between;
     margin-right: 4px;
     font-size: 20px;
@@ -101,7 +101,7 @@ footer{
     color: white;
     border: solid white 1px;
     height: 350px;
-    width: 1400px;
+    width: 1200px;
     font-size: 20px;
 }
 p{
